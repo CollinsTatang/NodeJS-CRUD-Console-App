@@ -27,7 +27,7 @@ export default async function queryDB(externalFunction) {
         }
 
     } catch (error) {
-        console.log("Something went wrong");
+        console.log("Something went wrong", error);
     }
 
 }
