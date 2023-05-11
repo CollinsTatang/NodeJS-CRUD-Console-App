@@ -1,5 +1,4 @@
 import fs from "fs";
-import { exit } from "process";
 
 export default async function queryDB(externalFunction) {
     try{
@@ -32,4 +31,4 @@ export default async function queryDB(externalFunction) {
 
 }
 
-queryDB()
+queryDB()           
