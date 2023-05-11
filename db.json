@@ -1,9 +1,1 @@
-[
-    {"name":"Collins"},
-    {
-        "id":"1f1cd9ca-4fdf-451b-b16c-9f5c4943adb2",
-        "Name":"",
-        "Phone":2342,
-        "Age":"Adult"
-    }
-]
+[{"name":"Collins"},{"id":"1f1cd9ca-4fdf-451b-b16c-9f5c4943adb2","Name":"","Phone":2342,"Age":"Adult"},{"id":"34b94f10-8ed2-41c3-b10e-78c27ab17580","Name":"Mark","Phone":651865148,"Age":"Adult"},{"id":"d78456b5-35c5-4497-8b1c-5127fc6c6852"}]
