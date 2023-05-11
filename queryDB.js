@@ -3,6 +3,7 @@ import fs from "fs";
 export default async function queryDB(externalFunction) {
     try{
         let info = [];
+//existsSync method is use to check if the file have been created
 
         if(fs.existsSync("db.json")){
             await fs.readFile("db.json", function(error, data){
@@ -19,16 +20,17 @@ export default async function queryDB(externalFunction) {
                 }
             })
         } else {
-            if (externalFunction) {
+            if (externalFunction){
                 externalFunction(info);
                 return;
             }
         }
 
     } catch (error) {
-        console.log("Something went wrong", error);
+        console.log(`Something went wrong": ${error.message}`);
     }
 
 }
 
-queryDB()           
+queryDB()
+         

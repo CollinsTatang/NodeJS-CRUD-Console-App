@@ -8,17 +8,17 @@ export default async function addData(info) {
       const answer = await inquirer.prompt([
             { 
                 type: "input", 
-                name: "Name", 
+                name: "name", 
                 massage: "Please Enter Your name" 
             },
             { 
                 type: "number", 
-                name: "Phone", 
+                name: "phone", 
                 massage: "Please Enter Your phone" 
             },
             { 
                 type: "list",
-                name: "Are you an adult", 
+                name: "age", 
                 massage: "Please are you an adult", 
                 choices: [
                     {name: "Y", value: "Adult"},
