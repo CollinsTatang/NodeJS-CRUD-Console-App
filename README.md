@@ -68,7 +68,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone 
+  git clone https://github.com/CollinsTatang/NodeJS-CRUD-Console-App.git
 ```
 
 ### Install
@@ -76,7 +76,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd my-project
+  cd NodeJS-CRUD-Console-App
   npm install
 ```
 ### Usage
@@ -112,6 +112,7 @@ To run tests, run the following command:
 - [ ] **Multiple Detele**
 - [ ] **Add More Database Table**
 - [ ] **Add Test**
+- [ ] **Add To DOCKER**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
