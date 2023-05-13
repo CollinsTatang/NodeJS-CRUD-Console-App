@@ -5,6 +5,7 @@ import queryDB from "./queryDB.js";
 
 export default async function addData(info) {
     try {
+        //Asking for User Data
       const answer = await inquirer.prompt([
             { 
                 type: "input", 
@@ -27,7 +28,7 @@ export default async function addData(info) {
             },
         ]);
 
-        //Assign ID's and set of input
+        //Assign ID's and set of inputs to have the data in a varaible
         const data = {
            id: uuidv4(),
            Name: answer.name,
@@ -55,6 +56,7 @@ export default async function addData(info) {
     }
 }
 
+//Add details method
 async function addDetails(info) {
     await fs.writeFile("db.json", JSON.stringify(info), function(error){
         if (error) {

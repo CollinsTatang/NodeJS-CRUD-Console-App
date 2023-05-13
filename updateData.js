@@ -4,7 +4,11 @@ import queryDB from "./queryDB.js";
 import dbFileCheck from "./dbFileCheck.js";
 
 export default async function updateData(info) {
+
   dbFileCheck();
+
+  try {
+    //Asking User record ID
   const answers = await inquirer.prompt([
     {
       type: "input",
@@ -22,8 +26,6 @@ export default async function updateData(info) {
         updateDetails(user, info);
       }
     });
-
-  try {
     
   } catch (error) {
     console.log("Something went wrong!", error);
@@ -32,6 +34,7 @@ export default async function updateData(info) {
 
 async function updateDetails(user, info) {
     try {
+      //Asking for User data with the initial value display by default
         const feedbacks = await inquirer.prompt([
             {
               type: "input",
@@ -56,6 +59,7 @@ async function updateDetails(user, info) {
               ],
             },
           ]);
+          //Assigning default values 
           user.Name = feedbacks.name;
           user.Phone = feedbacks.phone;
           user.Age = feedbacks.age;

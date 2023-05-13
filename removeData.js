@@ -7,6 +7,7 @@ export default async function removeData(info) {
   dbFileCheck();
 
   try {
+    //Asking User for User_id
     const answers = await inquirer.prompt([
       {
         type: "input",
@@ -22,6 +23,7 @@ export default async function removeData(info) {
       }
     });
 
+    //Rewrite the remnantData on the db.json file 
     fs.writeFile("db.json", JSON.stringify(remnantData), function (err) {
       if (err) {
         console.log(err);
