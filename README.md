@@ -31,14 +31,14 @@
 
 # 📖 NodeJS CRUD Console App <a name="about-project"></a> 
 
-**CRUD Console App** permit users to be able to Create Read Update and Delete items in the db.json data file.
+**CRUD Console App** permits users to be able to Create Read Update and Delete items in the database file.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Console</summary>
   <ul>
     <li><a href="https://reactjs.org/">Node.js</a></li>
   </ul>
