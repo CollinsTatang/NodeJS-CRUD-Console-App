@@ -38,11 +38,12 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Console</summary>
+  <summary>Node</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Node.js</a></li>
+    <li><a href="https://nodejs.org/en">Node.js</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 ### Key Features <a name="key-features"></a>
