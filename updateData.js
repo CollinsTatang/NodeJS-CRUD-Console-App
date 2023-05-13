@@ -13,13 +13,13 @@ export default async function updateData(info) {
     },
   ]);
 
-  let current;
+  let user;
 
     info.forEach((element) => {
       if (element.id === answers.recordID) {
-        current = element;
+        user = element;
 
-        updateDetails(current, info);
+        updateDetails(user, info);
       }
     });
 
@@ -30,24 +30,24 @@ export default async function updateData(info) {
   }
 }
 
-async function updateDetails(current, info) {
+async function updateDetails(user, info) {
     try {
         const feedbacks = await inquirer.prompt([
             {
               type: "input",
-              default: current.name,
+              default: user.Name,
               name: "name",
               message: "What's your name?",
             },
             {
               type: "number",
-              default: current.phone,
+              default: user.Phone,
               name: "phone",
               message: "What's your phone?",
             },
             {
               type: "list",
-              default: current.age,
+              default: user.Age,
               name: "age",
               message: "Are an adult?",
               choices: [
@@ -56,6 +56,10 @@ async function updateDetails(current, info) {
               ],
             },
           ]);
+          user.Name = feedbacks.name;
+          user.Phone = feedbacks.phone;
+          user.Age = feedbacks.age;
+
         await fs.writeFile("db.json", JSON.stringify(info), function (err) {
             if (err) {
               console.log(err);
@@ -67,5 +71,5 @@ async function updateDetails(current, info) {
       console.log("Something went wrong!", error);
     }
   }
-  
+
   queryDB(updateData)
