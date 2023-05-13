@@ -32,4 +32,5 @@ export default async function removeData(info) {
     console.log("Something went wrong!", error);
   }
 }
+
 queryDB(removeData)
