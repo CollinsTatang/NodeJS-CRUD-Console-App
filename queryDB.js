@@ -32,5 +32,4 @@ export default async function queryDB(externalFunction) {
 
 }
 
-queryDB()
-         
+queryDB()         

@@ -1,1 +1,15 @@
-[{"id":"1f1cd9ca-4fdf-451b-b16c-9f5c4943adb2","Name":"","Phone":2342,"Age":"Adult"},{"id":"34b94f10-8ed2-41c3-b10e-78c27ab17580","Name":"Mark","Phone":651865148,"Age":"Adult"},{"id":"9ca5665a-9b43-415c-84a5-b0d193020fbf","Name":"Don Man","Phone":46284642,"Age":"Minor"}]
+[
+    {
+        "id":"85eed0ff-5dba-4bd9-8267-33bd57dd561d",
+        "Name":"Collins",
+        "Phone":237,
+        "Age":"Minor"
+    },
+    {
+        "id":"05a77b8e-f1c0-4b7c-b43e-e325e0156bf5",
+        "Name":"Tatang",
+        "Phone":651237,
+        "Age":"Minor"
+    }
+    
+]
