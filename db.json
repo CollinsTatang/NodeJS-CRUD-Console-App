@@ -1,15 +1,1 @@
-[
-    {
-        "id":"85eed0ff-5dba-4bd9-8267-33bd57dd561d",
-        "Name":"Collins",
-        "Phone":237,
-        "Age":"Minor"
-    },
-    {
-        "id":"05a77b8e-f1c0-4b7c-b43e-e325e0156bf5",
-        "Name":"Tatang",
-        "Phone":651237,
-        "Age":"Minor"
-    }
-    
-]
+[{"id":"85eed0ff-5dba-4bd9-8267-33bd57dd561d","Name":"Collins","Phone":237,"Age":"Minor"},{"id":"05a77b8e-f1c0-4b7c-b43e-e325e0156bf5","Name":"Tatang","Phone":651237,"Age":"Minor"},{"id":"dc61fce2-8a1b-42cc-bc9c-b1dbbe16bcc6","Name":"Mark Don","Phone":2376518602,"Age":"Minor"}]

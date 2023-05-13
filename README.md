@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3><b>NodeJS CRUD Console App</b></h3>
-<img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+<img src="updateDisplay.png" alt="logo" width="300"  height="auto" />
 </div>
 
 <!-- TABLE OF CONTENTS -->
