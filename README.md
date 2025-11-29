@@ -100,11 +100,11 @@ To run tests, run the following command:
 <!-- AUTHORS -->
 ## 👥 Authors <a name="authors"></a>
 
-👤**Makungong Collins Tatang**
+👤**Makungang Collins Tatang**
 
-- GitHub: [@CollinsTatang1](https://github.com/CollinsTatang)
+- GitHub: [@CollinsTatang](https://github.com/CollinsTatang)
 - Twitter: [@CollinsTatang1](https://twitter.com/CollinsTatang1)
-- LinkedIn: [Makungong Collins](https://www.linkedin.com/in/makungong-collins/)
+- LinkedIn: [Makungang Collins Tatang](https://www.linkedin.com/in/makungang-collins/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
